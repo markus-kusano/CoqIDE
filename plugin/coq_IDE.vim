@@ -329,8 +329,8 @@ endfunction
 " The functions for setting colors
 "
 "
-highlight CoqIDEDebug ctermbg=LightBlue guibg=LightBlue
-highlight SentToCoq ctermbg=LightGreen guibg=LightGreen
+highlight CoqIDEDebug ctermfg=red cterm=underline guibg=LightBlue
+highlight SentToCoq cterm=underline guibg=LightGreen
 highlight WillSendToCoq ctermbg=Yellow guibg=Yellow
 highlight link CoqTopError Error
 
